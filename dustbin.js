@@ -6,7 +6,7 @@ class bin {
    this.body = Bodies.rectangle(x,y,width,height,options);
    this.width = width;
    this.height = height;
-   this.image=loadImage("Sprites/dustbingreen (1).png");
+   this.image=loadImage("dustbingreen (1).png");
   
    World.add(world,this.body);
   }
